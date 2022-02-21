@@ -9,19 +9,18 @@
 
 .navbar {
 	display: flex;
-	text-align: left;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
 	position: sticky;
-	/* width: 100%; */
+	width: 100vw;
 	top: 0;
 	z-index: 2;
 	/* display: flex; */
 	/* align-items: center; */
 	/* justify-content: space-between; */
 	background-color: rgb(69, 69, 69);
-	padding: 15px 15px;
+	padding: 15px 0px;
 }
 
 .navmenu {
@@ -137,7 +136,8 @@
 	overflow: hidden;
 	border-right: 0.15em solid yellow; /* The typwriter cursor */
 	border-radius: 2px;
-	white-space: nowrap; /* Keeps the content on a single line */
+	 /* Keeps the content on a single line */
+	/* white-space: nowrap; */
 	/* Gives that scrolling effect as the typing happens */
 	/* margin: 0 auto;  */
 	letter-spacing: 0.08em;
@@ -145,7 +145,26 @@
 }
 
 .code {
-	font-size: 1.2rem;
+	white-space: nowrap;
+	font-size: 22px;
+}
+
+@media only screen and (max-width: 780px) {
+  .name {
+    font-size: 24px;
+  }
+  .code {
+	  font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .name {
+    font-size: 18px;
+  }
+  .code {
+	  font-size: 14px;
+  }
 }
 
 .blue {

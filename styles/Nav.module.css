@@ -1,5 +1,5 @@
 .heading {
-	margin: 5px 20px;
+	margin: 5px 10px;
 }
 
 .links {
@@ -8,15 +8,20 @@
 }
 
 .navbar {
+	display: flex;
+	text-align: left;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
 	position: sticky;
-	width: 100%;
+	/* width: 100%; */
 	top: 0;
 	z-index: 2;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	/* display: flex; */
+	/* align-items: center; */
+	/* justify-content: space-between; */
 	background-color: rgb(69, 69, 69);
-	padding: 15px 20px;
+	padding: 15px 15px;
 }
 
 .navmenu {
@@ -122,32 +127,63 @@
 }
 
 .name {
-  color: #fff;
-  text-align: right;
-  /* display: flex;
+	font-size: 36px;
+	margin: 0;
+	color: #fff;
+	/* display: flex;
   justify-content: flex-start; */
-  /* font-family: monospace; */
-  /* Ensures the content is not revealed until the animation */
-  overflow: hidden; 
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  /* Gives that scrolling effect as the typing happens */
-  /* margin: 0 auto;  */
-  letter-spacing: .08em; 
-  left: 40px;
-  animation: 
-    typing 3s steps(30, end),
-    blink-caret .5s step-end ;
+	/* font-family: monospace; */
+	/* Ensures the content is not revealed until the animation */
+	overflow: hidden;
+	border-right: 0.15em solid yellow; /* The typwriter cursor */
+	border-radius: 2px;
+	white-space: nowrap; /* Keeps the content on a single line */
+	/* Gives that scrolling effect as the typing happens */
+	/* margin: 0 auto;  */
+	letter-spacing: 0.08em;
+	animation: typing 3s steps(30, end), blink-caret 01s step-end infinite;
+}
+
+.code {
+	font-size: 1.2rem;
+}
+
+.blue {
+	color: rgb(0, 211, 230);
+}
+
+.green {
+	color: rgb(140, 227, 0);
+}
+.orange {
+	color: rgb(225, 138, 0);
+}
+.red {
+	color: rgb(255, 0, 115);
+}
+.purple {
+	/* font-size: 30px; */
+	font-weight: lighter;
+	color: rgb(241, 105, 215);
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: yellow;
+	}
 }

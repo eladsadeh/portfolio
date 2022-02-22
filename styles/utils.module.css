@@ -1,0 +1,21 @@
+.blue {
+	color: rgb(0, 211, 230);
+}
+
+.green {
+	color: rgb(140, 227, 0);
+}
+.orange {
+	color: rgb(225, 138, 0);
+}
+.red {
+	color: rgb(255, 0, 115);
+}
+.yellow {
+	color: yellow;
+}
+.purple {
+	/* font-size: 30px; */
+	/* font-weight: lighter; */
+	color: rgb(241, 105, 215);
+}

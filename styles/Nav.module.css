@@ -137,7 +137,7 @@
 	border-right: 0.15em solid yellow; /* The typwriter cursor */
 	border-radius: 2px;
 	 /* Keeps the content on a single line */
-	/* white-space: nowrap; */
+	white-space: nowrap;
 	/* Gives that scrolling effect as the typing happens */
 	/* margin: 0 auto;  */
 	letter-spacing: 0.08em;
@@ -161,9 +161,16 @@
 @media only screen and (max-width: 600px) {
   .name {
     font-size: 18px;
+	/* white-space: unset; */
+
   }
   .code {
 	  font-size: 14px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .name {
+	white-space: unset;
   }
 }
 

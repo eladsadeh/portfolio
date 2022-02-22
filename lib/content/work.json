@@ -1,0 +1,12 @@
+[
+	{
+		"title": "CPU Design",
+		"description": "What I did at Intel",
+		"bullets": ["Section Timing", "Circuit Design", "Design Verification"]
+	},
+	{
+		"title": "Self-Employed/Farmer",
+		"description": "What I did at Bee Fields Farm",
+		"bullets": ["Section Timing", "Circuit Design", "Design Verification"]
+	}
+]

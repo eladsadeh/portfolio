@@ -13,16 +13,16 @@ export default function Home() {
 					<span className={utilStyles.red}> = </span>
 					<span className={utilStyles.yellow}>[</span>
 					<span className={styles.links}>
-						<Link href='/education'>
-							<a className={styles.link}>Education,</a>
-						</Link>
 						<Link href='/work'>
 							<a className={styles.link}>Work,</a>
 						</Link>
 						<Link href='/projects'>
 							<a className={styles.link}>Projects,</a>
 						</Link>
-						<Link href='background'>
+						<Link href='/education'>
+							<a className={styles.link}>Education,</a>
+						</Link>
+						<Link href='/background'>
 							<a className={styles.link}>EverythingElse</a>
 						</Link>
 					</span>

@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-function Projects(props) {
+function Work(props) {
     return (
         <Layout>
             <div>
-                Projects.
+            Work
             </div>
         </Layout>
     );
 }
 
-export default Projects;
+export default Work;

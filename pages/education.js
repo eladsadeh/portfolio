@@ -1,10 +1,14 @@
 import React from 'react';
 
+import Layout from '../components/Layout';
+
 function Education(props) {
     return (
-        <div>
-            Education
-        </div>
+        <Layout>
+            <div>
+                Education
+            </div>
+        </Layout>
     );
 }
 

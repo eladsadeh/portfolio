@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
 }
 a {
   color: inherit;
@@ -21,4 +21,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
 }

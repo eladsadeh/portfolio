@@ -25,3 +25,34 @@
     padding-top: 20px;
     color: whitesmoke
 }
+
+.languages {
+	animation: languages ease 6s;
+}
+.connect {
+	animation: connect ease 7s;
+}
+
+@keyframes languages {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes connect {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

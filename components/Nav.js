@@ -1,21 +1,20 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 import NavMenu from './NavMenu';
-import { TiThMenu } from 'react-icons/ti';
-import { IoClose } from 'react-icons/io5';
 
 import styles from '../styles/Nav.module.css';
 import HomeTitle from './HomeTitle';
+import WorkTitle from './WorkTitle'
 
 function Nav(props) {
 	const router = useRouter();
-	const [showMenu, setShowMenu] = useState(false);
-    console.log(router);
+    const page = router.pathname;
+
 	return (
 		<nav className={styles.navbar}>
 			<NavMenu />
-			<HomeTitle />
+			{(page === '/work') && <WorkTitle />}
+			{(page === '/') && <HomeTitle />}
 		</nav>
 	);
 }

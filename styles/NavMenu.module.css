@@ -24,6 +24,7 @@
 .link {
 	color: whitesmoke;
 	padding: 5px 11px;
+    white-space: nowrap;
 }
 
 .link:hover {

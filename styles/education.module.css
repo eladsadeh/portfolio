@@ -1,0 +1,70 @@
+.container {
+    width: min(500px, 95vw);
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.heading {
+    text-align: center;
+	padding: 20px;
+	font-size: 1.5rem;
+	animation: appear ease 4s;
+}
+@media only screen and (max-width: 440px) {
+  .heading {
+    font-size: 20px;
+	/* white-space: unset; */
+
+  }
+ 
+}
+
+.school {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+.content {
+
+	animation: appear ease 5s;
+}
+.description {
+    padding: 10px;
+}
+
+.description h3 {
+    font-size: 1em;
+    border-bottom: 1px solid gray;
+    color: rgb(0, 211, 230);
+}
+
+.description p {
+    margin: 5px
+}
+
+.description p:nth-child(2) {
+    font-style: italic;
+}
+
+.image {
+    /* padding: 5px; */
+    min-width: 70px;
+    min-height: 70px;
+    
+}
+
+@keyframes appear {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

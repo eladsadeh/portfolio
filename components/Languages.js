@@ -12,7 +12,7 @@ import {
 	SiPostgresql,
 } from 'react-icons/si';
 
-import styles from '../styles/footer.module.css';
+import styles from '../styles/languages.module.css';
 
 function Languages(props) {
 	return (
@@ -53,4 +53,4 @@ function Languages(props) {
 	);
 }
 
-export default Footer;
+export default Languages;

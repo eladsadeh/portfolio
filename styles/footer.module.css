@@ -9,12 +9,12 @@
 }
 
 .icons {
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	font-size: 40px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 12px;
+	gap: 15px;
 }
 
 .heading {
@@ -22,10 +22,10 @@
 	width: 95vw;
 	border-top: 2px solid gray;
 	margin: 10px 0;
-	padding-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 5px;
 	color: whitesmoke;
 }
-
 
 .connect {
 	animation: appear ease 7s;

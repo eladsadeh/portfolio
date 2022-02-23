@@ -1,8 +1,8 @@
 .heading {
-	padding: 20px 10px 5px;
+	padding: 20px;
 	font-size: 1.5rem;
 	animation: appear ease 5s;
-
+text-align: center;
 }
 
 .accordion {

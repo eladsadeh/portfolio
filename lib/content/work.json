@@ -1,12 +1,30 @@
 [
 	{
-		"title": "CPU Design",
-		"description": "What I did at Intel",
-		"bullets": ["Section Timing", "Circuit Design", "Design Verification"]
+		"title": "Designed State-Of-The-Art MicroProcessors",
+		"description": "During the 14 years (1993-2007) I worked at Intel, I successfully held positions that cover the full product development cycle of state-of-the-art microprocessors: from functional definition at the micro-architecture level, designing transistor-level library cells, implementing logic and circuit design of 100,000+ transistors blocks, performing timing optimizations at various levels, floor planning, and post-manufacturing verification.",
+		"bullets": [
+			"Drove the performance and power convergence of the FE section of Intel’s flagship microprocessor to achieve design targets ahead of the deadline. Built and compiled a unified model, analyze critical paths, and drove solutions by collaborating with other engineers.",
+			"Developed and implemented a statistical model for performance-based yield loss prediction to assist management in market segmentation planning and help the design team focus on the most critical design improvements.",
+			"Composed project-wide design methodology of standard cells library optimized for timing and power.",
+			"Set direction and lead an engineering team that developed programs for performing design verification for Intel’s first SoC device."
+		]
 	},
 	{
-		"title": "Self-Employed/Farmer",
-		"description": "What I did at Bee Fields Farm",
-		"bullets": ["Section Timing", "Circuit Design", "Design Verification"]
+		"title": "Built A Farm (and a business) From Scratch",
+		"description": "At 2011, I founded Bee Fields Farm (named after my grandmother, B. Fields). I built the whole farm infrascture from the ground up: 3 greenhouses, a burn, walk-in cooler, irrigation system, and established fields.",
+		"bullets": [
+			"Created and maintained business infrastructure, including website, online store, accounting, marketing, and managed the farm operations. Achieved a sustainable cash flow to cover operations and living expenses in a difficult farming environment.",
+			"Planned and executed a logistically complex operation of growing more than 40 different crops: Managed inventory, planned and oversaw budget, supervised a crew of interns, and led the day-to-day activities",
+			"Invited to speak at a national Agricultural conference. Successfully delivered a presentation on complex concepts like quantum physics and the theory of relativity in a clear, understandable way to a large non-scientific audience."
+		]
+	},
+	{
+		"title": "Volunteer at a Not-For-Profit social organization",
+		"description": "Between 2007 and 2011, I volunteered at Camphill Village Kimberton Hills (PA). A not-for-profit organization dedicated to creating and maintaining a land-based community for adults with special needs.",
+		"bullets": [
+			"Established a new herb garden workshop.",
+			"Managed workshops for people with disabilities.",
+			"Served on the finance committee and management group."
+		]
 	}
 ]

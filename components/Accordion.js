@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import AccordionItem from './AccordionItem';
 
-function Accordion({ contents }) {
-	console.log(contents);
-    const initialState = new Array(contents.length).fill(false).map((el,idx) => idx? false: true);
-	const [showContent, setShowContent] = useState(initialState);
+function Accordion({ contents, firstOpen }) {
+    const initialState = new Array(contents.length).fill(false).map((el,idx) => !idx  && firstOpen ? true: false);
+	
+    const [showContent, setShowContent] = useState(initialState);
 
 	function toggleContent(index) {
 		const newState = showContent.map((val, idx) => {
@@ -14,7 +14,6 @@ function Accordion({ contents }) {
 	}
 	return (
 		<div>
-			Accordion
 			{contents.map((content, idx) => {
 				return (
 					<AccordionItem

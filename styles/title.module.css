@@ -13,7 +13,7 @@
 	white-space: nowrap;
 	/* Gives that scrolling effect as the typing happens */
 	letter-spacing: 0.05em;
-	animation: typing 3s steps(30, end), blink-caret 01s step-end infinite;
+	animation: typing 3s steps(30, end), blink-caret 1s step-end infinite;
 }
 .name h1 {
     display: inline;

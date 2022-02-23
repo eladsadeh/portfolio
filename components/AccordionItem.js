@@ -1,22 +1,20 @@
 import React from 'react';
+import { FiChevronLeft, FiChevronDown } from 'react-icons/fi';
+import styles from '../styles/accordionItem.module.css';
 
 function AccordionItem({ content, toggleContent, idx, showContent }) {
 	return (
-		<div>
-			<div
-				className={
-					showContent ? 'accordion_item_title active' : 'accordion_item_title'
-				}
-				onClick={() => toggleContent(idx)}>
+		<div className={styles.container}>
+			<div className={showContent? `${styles.active} ${styles.title}`: styles.title} onClick={() => toggleContent(idx)}>
 				<h2>{content.title}</h2>
-				<span>{showContent ? '-' : '+'}</span>
+				{showContent ? <FiChevronDown className={styles.icon}/> : <FiChevronLeft />}
 			</div>
 			{showContent && (
-				<div>
-					<div className='description'>{content.description}</div>
-					<ul className='bullets'>
+				<div className={styles.content}>
+					<div className={styles.description}>{content.description}</div>
+					<ul className={styles.bullets}>
 						{content.bullets.map((bullet, idx) => {
-							return <li key={idx}>{bullet}</li>;
+							return <li key={idx}><p>{bullet}</p></li>;
 						})}
 					</ul>
 				</div>

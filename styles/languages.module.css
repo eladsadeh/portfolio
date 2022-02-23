@@ -26,12 +26,11 @@
 	color: whitesmoke;
 }
 
-
-.connect {
-	animation: appear ease 7s;
+.languages {
+	animation: languages ease 6s;
 }
 
-@keyframes appear {
+@keyframes languages {
 	0% {
 		opacity: 0;
 	}

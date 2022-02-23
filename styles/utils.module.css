@@ -13,9 +13,10 @@
 }
 .yellow {
 	color: yellow;
+	font-size: 1.1em;
 }
 .purple {
-	/* font-size: 30px; */
+	font-size: 1.1em;
 	/* font-weight: lighter; */
 	color: rgb(241, 105, 215);
 }

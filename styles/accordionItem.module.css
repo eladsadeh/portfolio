@@ -1,0 +1,52 @@
+.container {
+	width: min(500px, 95vw);
+	border-radius: 5px;
+	border: 1px solid gray;
+	margin: 8px;
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	padding: 5px 10px;
+	/* width: 100%; */
+	/* background-color: gray; */
+}
+
+.title:hover,
+.active {
+	background-color: rgb(111, 111, 111);
+}
+
+.title h2 {
+	font-size: 18px;
+	margin: 0;
+}
+
+.icon {
+	font-size: 20px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.description {
+	padding:  0 10px;
+    line-height: 1.2;
+}
+
+.bullets {
+	list-style-type: none;
+	padding: 5px;
+}
+.bullets li:before {
+	padding: 5px;
+	content: '❖ ';
+}
+.bullets li {
+	display: flex;
+	align-items: baseline;
+}

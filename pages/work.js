@@ -2,6 +2,8 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Accordion from '../components/Accordion';
 import contents from '../lib/content/work.json';
+import styles from '../styles/work.module.css';
+import utilStyles from '../styles/utils.module.css';
 
 export async function getStaticProps(props) {
 	return {
@@ -11,11 +13,23 @@ export async function getStaticProps(props) {
 	};
 }
 
-function Work({contents}) {
+function Work({ contents }) {
 	return (
 		<Layout>
-			<div>Work</div>
-            <Accordion contents={contents} />
+			<div className={styles.container}>
+                <div className={styles.heading}>
+                    <span className={utilStyles.yellow}>[</span>
+                    <span className=''>What, I, did, so, far</span>
+                    <span className={utilStyles.yellow}>]</span>
+                    <span className={utilStyles.red}> = </span>
+                    <span className={utilStyles.purple}>&#123;</span>
+                    <span className={utilStyles.orange}> ...atWork </span>
+                    <span className={utilStyles.purple}>&#125;</span>
+                </div>
+                <div className={styles.accordion}>
+                    <Accordion contents={contents} />
+                </div>
+            </div>
 		</Layout>
 	);
 }

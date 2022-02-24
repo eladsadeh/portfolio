@@ -6,6 +6,7 @@ import styles from '../styles/Nav.module.css';
 import HomeTitle from './HomeTitle';
 import WorkTitle from './WorkTitle'
 import EducationTitle from './EducationTitle';
+import ProjectsTitle from './ProjectsTitle';
 
 function Nav(props) {
 	const router = useRouter();
@@ -16,6 +17,7 @@ function Nav(props) {
 			<NavMenu />
 			{(page === '/work') && <WorkTitle />}
 			{(page === '/education') && <EducationTitle />}
+			{(page === '/projects') && <ProjectsTitle />}
 			{(page === '/') && <HomeTitle />}
 		</nav>
 	);

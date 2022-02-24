@@ -1,0 +1,71 @@
+[
+	{
+		"title": "Trellis",
+		"description": "Trellis is an application that supports home gardeners in planning and bringing their vegetable garden to fruition. This is a prototype for a complete platform that provides knowledge, tools, and other resources to empower people that want to grow their own food. Currently, the application is in its initial stage (work in progress). Many more features to come ...",
+		"bullets": ["Built with Next.js, React, Django REST Framework, CSS"],
+		"video": "trellis.mp4",
+		"links": [
+			{ "name": "Deployed App", "url": "https://trellis-garden.netlify.app/" },
+			{
+				"name": "GitHub Frontend",
+				"url": "https://github.com/eladsadeh/trellis-fe"
+			},
+			{
+				"name": "GitHub Backend",
+				"url": "https://github.com/eladsadeh/trellis-be"
+			}
+		]
+	},
+	{
+		"title": "AgiliTeam",
+		"description": "The AgiliTeam Project Planner was designed and developed to help teams using an Agile methodology to manage their workflow. Tasks are designed to be easily created, staged, and updated as needed. Teams using AgiliTeam can also create and assign users to tasks quickly and efficiently.",
+		"bullets": [
+			"Built with React, Express, Mongoose, MongoDB",
+			"Team collaboration project"
+		],
+		"video": "agiliteam.mp4",
+		"links": [
+			{ "name": "Deployed App", "url": "https://agiliteam.netlify.app/" },
+			{
+				"name": "GitHub Frontend",
+				"url": "https://github.com/agiliteam-planner/agiliteam-front-end"
+			},
+			{
+				"name": "GitHub Backend",
+				"url": "https://github.com/agiliteam-planner/agiliteam-back-end"
+			}
+		]
+	},
+	{
+		"title": "Tower Of Hanoi",
+		"description": "Implementation of the mathematical game Tower Of Hanoi - Drag and drop interactive game",
+		"bullets": [
+			"Built with Vanilla JavaScript, HTML5, CSS3",
+			"Uses a recursive function to implement 'Guided Mode' feature: Guide the player how to solve the game using minimum number of moves"
+		],
+		"video": "towerofhanoi.mp4",
+		"links": [
+			{
+				"name": "Deployed App",
+				"url": "https://eladsadeh.github.io/tower-of-hanoi/"
+			},
+			{
+				"name": "GitHub",
+				"url": "https://github.com/eladsadeh/tower-of-hanoi"
+			}
+		]
+	},
+	{
+		"title": "Park-Z Explorer",
+		"description": "Explor National parks by state or region. Filter parks by activity",
+		"bullets": ["Built with React", "Access the National Parks API"],
+		"video": "parkz.mp4",
+		"links": [
+			{ "name": "Deployed App", "url": "https://park-z-explorer.netlify.app/" },
+			{
+				"name": "GitHub",
+				"url": "https://github.com/eladsadeh/parks-explorer"
+			}
+		]
+	}
+]

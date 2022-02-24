@@ -34,7 +34,7 @@ export default function Home() {
 						<span className={utilStyles.orange}>me</span>,{' '}
 						<span className={utilStyles.orange}>experience</span>
 						<span className={utilStyles.purple}>)</span>
-						<span className={utilStyles.blue}> => </span>
+						<span className={utilStyles.blue}> =&gt; </span>
 						<span className={utilStyles.orange}>me</span>
 						<span className={utilStyles.red}> + </span>
 						<span className={utilStyles.orange}>experience</span>

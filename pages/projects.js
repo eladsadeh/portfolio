@@ -1,15 +1,28 @@
 import React from 'react';
 import Languages from '../components/Languages';
 import Layout from '../components/Layout';
+import projects from '../lib/content/projects.json';
+
 
 import styles from '../styles/projects.module.css';
 import Project from '../components/Project'
 
-function Projects(props) {
-	const video = '/videos/trellis.mp4';
+export async function getStaticProps(props) {
+	return {
+		props: {
+			projects,
+		},
+	};
+}
+
+
+function Projects({projects}) {
 	return (
 		<Layout>
-			<Project video={video} project/>
+			{projects.map((project,idx) => {
+                return <Project key={idx} project={project}/>}
+
+            )}
 			<Languages />
 		</Layout>
 	);

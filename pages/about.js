@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-function Background(props) {
+function About(props) {
 	return (
 		<Layout>
 			<div>About me.</div>
@@ -10,4 +10,4 @@ function Background(props) {
 	);
 }
 
-export default Background;
+export default About;

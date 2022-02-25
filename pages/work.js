@@ -18,13 +18,17 @@ function Work({ contents }) {
 		<Layout>
 			<div className={styles.container}>
                 <div className={styles.heading}>
-                    <span className={utilStyles.yellow}>[</span>
-                    <span className=''>What, I, did, so, far</span>
-                    <span className={utilStyles.yellow}>]</span>
-                    <span className={utilStyles.red}> = </span>
-                    <span className={utilStyles.purple}>&#123;</span>
-                    <span className={utilStyles.orange}> ...atWork </span>
-                    <span className={utilStyles.purple}>&#125;</span>
+                    <span className={styles.left}>
+                        <span className={utilStyles.yellow}>[</span>
+                        <span className=''>What, I, did, so, far</span>
+                        <span className={utilStyles.yellow}>]</span>
+                        <span className={utilStyles.red}> = </span>
+                    </span>
+                    <span className={styles.right}>
+                        <span className={utilStyles.purple}>&#123;</span>
+                        <span className={utilStyles.orange}> ...atWork </span>
+                        <span className={utilStyles.purple}>&#125;</span>
+                    </span>
                 </div>
                 <div className={styles.accordion}>
                     <Accordion contents={contents} />

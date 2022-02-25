@@ -1,6 +1,7 @@
 import React from 'react';
 
 import styles from '../styles/project.module.css';
+import utilStyles from '../styles/utils.module.css'
 
 function Project({ project }) {
 	return (
@@ -27,13 +28,16 @@ function Project({ project }) {
 					src={`/videos/${project.video}`}
 					type='video/mp4'></video>
 				<ul className={styles.links}>
+					<span className={utilStyles.yellow}>[</span>
 					{project.links.map((link, idx) => {
 						return (
 							<li key={idx}>
+								{idx ? <span>,</span> : ''}
 								<a href={link.url}>{link.name}</a>
 							</li>
 						);
 					})}
+					<span className={utilStyles.yellow}>]</span>
 				</ul>
 			</div>
 		</div>

@@ -2,7 +2,7 @@
 	position: absolute;
 	background-color: rgba(69, 69, 69, 0.7);
 	z-index: 10;
-	top: 50px;
+	top: 60px;
 	left: 0px;
 	/* padding: 10px; */
 	/* border-radius: 6px; */
@@ -12,18 +12,18 @@
 }
 
 .navitems {
-	font-size: 18px;
+	font-size: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
 	list-style-type: none;
-	padding: 10px 5px;
+	padding: 20px 15px;
 }
 
 .link {
 	color: whitesmoke;
-	padding: 5px 11px;
+	padding: 6px 11px;
     white-space: nowrap;
 }
 
@@ -35,19 +35,19 @@
 	padding-right: 4px;
     padding-top: 3px;
 	/* border-radius: 4px; */
-    color: rgb(140, 227, 0);
+    color: var(--green);
 }
 
 .link:hover::before {
 	content: '{';
-	font-size: 20px;
-   color: rgb(241, 105, 215);
+	font-size: 22px;
+   color: var(--purple);
 }
 
 .link:hover::after {
 	content: '}';
-	font-size: 20px;
-   color: rgb(241, 105, 215);
+	font-size: 22px;
+   color: var(--purple);
 }
 
 .slidout {

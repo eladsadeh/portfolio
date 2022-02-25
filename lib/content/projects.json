@@ -1,8 +1,8 @@
 [
 	{
 		"title": "Trellis",
-		"description": "Trellis is an application that supports home gardeners in planning and bringing their vegetable garden to fruition. This is a prototype for a complete platform that provides knowledge, tools, and other resources to empower people that want to grow their own food. Currently, the application is in its initial stage (work in progress). Many more features to come ...",
-		"bullets": ["Built with Next.js, React, Django REST Framework, CSS"],
+		"description": "Trellis is an application that supports home gardeners in planning and bringing their vegetable garden to fruition. This is a prototype for a complete platform that provides knowledge, tools, and other resources to empower people that want to grow their own food. Currently, the application is in its initial stage. Many more features to come.",
+		"bullets": ["Built with Next.js, React, Django REST Framework"],
 		"video": "trellis.mp4",
 		"links": [
 			{ "name": "Deployed App", "url": "https://trellis-garden.netlify.app/" },

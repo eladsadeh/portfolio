@@ -9,8 +9,8 @@ function ProjectsTitle(props) {
 			<span className={styles.name}>
 				<span>&lt;</span>
 				<h1 className={utilStyles.blue}>Projects&nbsp;</h1>
+				<span className={styles.name}>&nbsp;/&gt;</span>
 			</span>
-			<span className={styles.name}>&nbsp;/&gt;</span>
 		</div>
 	);
 }

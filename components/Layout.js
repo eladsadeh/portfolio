@@ -8,11 +8,9 @@ const Layout = (props) => (
 			<title>Elad Sadeh</title>
 			<link rel='icon' href='./images/favicon.ico' />
 		</Head>
-		<div className='main'>
 		<Nav />
-			<main>{props.children}</main>
+		<main className='main'>{props.children}</main>
 		<Footer />
-		</div>
 	</>
 );
 

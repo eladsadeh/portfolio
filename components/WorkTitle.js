@@ -9,8 +9,8 @@ function WorkTitle(props) {
 			<span className={styles.name}>
 				<span>&lt;</span>
 				<h1 className={utilStyles.blue}>Work Experience&nbsp;</h1>
+				<span className={styles.name}>&nbsp;/&gt;</span>
 			</span>
-			<span className={styles.name}>&nbsp;/&gt;</span>
 		</div>
 	);
 }

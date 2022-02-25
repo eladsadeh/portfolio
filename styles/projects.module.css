@@ -1,1 +1,26 @@
+.heading {
+	text-align: center;
+	padding: 20px;
+	font-size: 1.5rem;
+	animation: appear ease 4s;
+}
 
+.right {
+	white-space: nowrap;
+}
+
+.projects {
+	animation: appear ease 6s;
+}
+
+@keyframes appear {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

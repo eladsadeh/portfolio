@@ -1,25 +1,12 @@
 import React from 'react';
-import { FaReact, FaPython, FaNodeJs, FaGithub } from 'react-icons/fa';
-import {
-	SiMongodb,
-	SiJavascript,
-	SiDjango,
-	SiNextdotjs,
-	SiExpress,
-	SiHtml5,
-	SiCss3,
-	SiVisualstudiocode,
-	SiPostgresql,
-	SiLinkedin,
-	SiGmail,
-} from 'react-icons/si';
+import { FaGithub } from 'react-icons/fa';
+import { SiLinkedin, SiGmail } from 'react-icons/si';
 
 import styles from '../styles/footer.module.css';
 
 function Footer(props) {
 	return (
 		<div className={styles.container}>
-			
 			<div className={styles.connect}>
 				<div className={styles.heading}>Connect</div>
 				<div className={styles.icons}>
@@ -51,6 +38,7 @@ function Footer(props) {
 						/>
 					</a>
 				</div>
+				<div className={styles.disclaimer}>Designed and built by Elad Sadeh 2022</div>
 			</div>
 		</div>
 	);

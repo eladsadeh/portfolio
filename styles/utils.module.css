@@ -1,22 +1,36 @@
 .blue {
-	color: rgb(0, 211, 230);
+	color: var(--blue);
 }
 
 .green {
-	color: rgb(140, 227, 0);
+	color: var(--green);
 }
 .orange {
-	color: rgb(225, 138, 0);
+	color: var(--orange);
 }
 .red {
-	color: rgb(255, 0, 115);
+	color: var(--red);
 }
 .yellow {
-	color: yellow;
+	color: var(--yellow);
 	font-size: 1.1em;
 }
 .purple {
 	font-size: 1.1em;
 	/* font-weight: lighter; */
-	color: rgb(241, 105, 215);
+	color: var(--purple);
+}
+
+.bullets {
+	list-style-type: none;
+	padding: 5px;
+}
+.bullets li:before {
+	padding: 5px;
+	content: '❖ ';
+	color: var(--green)
+}
+.bullets li {
+	display: flex;
+	align-items: baseline;
 }

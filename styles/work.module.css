@@ -2,12 +2,15 @@
 	padding: 20px;
 	font-size: 1.5rem;
 	animation: appear ease 5s;
-text-align: center;
+	text-align: center;
+}
+
+.right {
+	white-space: nowrap;
 }
 
 .accordion {
 	animation: appear ease 6s;
-   
 }
 
 @keyframes appear {

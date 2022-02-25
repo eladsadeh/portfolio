@@ -18,7 +18,7 @@
 	},
 	{
 		"title": "AgiliTeam",
-		"description": "The AgiliTeam Project Planner was designed and developed to help teams using an Agile methodology to manage their workflow. Tasks are designed to be easily created, staged, and updated as needed. Teams using AgiliTeam can also create and assign users to tasks quickly and efficiently.",
+		"description": "The AgiliTeam Project Planner was designed and developed to help teams use Agile methodology to manage their workflow. Tasks are designed to be easily created, staged, and updated as needed. Teams using AgiliTeam can also create and assign users to tasks quickly and efficiently.",
 		"bullets": [
 			"Built with React, Express, Mongoose, MongoDB",
 			"Team collaboration project"
@@ -38,10 +38,11 @@
 	},
 	{
 		"title": "Tower Of Hanoi",
-		"description": "Implementation of the mathematical game Tower Of Hanoi - Drag and drop interactive game",
+		"description": "Implementation of the mathematical game Tower Of Hanoi - Drag and drop interactive game.",
 		"bullets": [
 			"Built with Vanilla JavaScript, HTML5, CSS3",
-			"Uses a recursive function to implement 'Guided Mode' feature: Guide the player how to solve the game using minimum number of moves"
+			"Uses a recursive function to implement 'Guided Mode' feature: Guide the player on how to solve the game using a minimum number of moves",
+			"Display random an inspirational quote upon completion of the game"
 		],
 		"video": "towerofhanoi.mp4",
 		"links": [

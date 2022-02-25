@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from '../styles/project.module.css';
-import utilStyles from '../styles/utils.module.css'
+import utilStyles from '../styles/utils.module.css';
 
 function Project({ project }) {
 	return (
@@ -23,8 +23,6 @@ function Project({ project }) {
 				<video
 					className={styles.video}
 					controls
-					autoPlay
-					loop
 					src={`/videos/${project.video}`}
 					type='video/mp4'></video>
 				<ul className={styles.links}>

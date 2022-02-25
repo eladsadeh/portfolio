@@ -23,7 +23,7 @@ function Project({ project }) {
 				<video
 					className={styles.video}
 					controls
-					src={`/videos/${project.video}`}
+					src={`/videos/${project.video}#t=0.001`}
 					type='video/mp4'></video>
 				<ul className={styles.links}>
 					<span className={utilStyles.yellow}>[</span>

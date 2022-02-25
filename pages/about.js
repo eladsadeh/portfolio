@@ -15,7 +15,6 @@ export async function getStaticProps(props) {
 }
 
 function About({content}) {
-	console.log(content.title);
 	return (
 		<Layout>
 			<div className={styles.container}>

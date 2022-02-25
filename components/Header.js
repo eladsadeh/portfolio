@@ -11,7 +11,7 @@ function Header({ header, subHeader }) {
 				<h1 className={utilStyles.blue}>{header}&nbsp;</h1>
 			</span>
 			{subHeader && (
-				<span className={styles.code}>
+				<span className={styles.subheader}>
 					<span className={utilStyles.green}>whatIDo</span>
 					<span className={utilStyles.red}>=</span>
 					<span className={utilStyles.purple}>&#123;</span>

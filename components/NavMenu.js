@@ -12,7 +12,7 @@ function NavMenu(props) {
 
 	return (
 		<>
-			<button
+			<button 
 				className={styles.showButton}
 				onClick={() => {
 					setShowMenu(!showMenu);

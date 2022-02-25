@@ -1,14 +1,13 @@
 
 .title {
 	font-family: 'Roboto', sans-serif;
-	margin: 0;
 	display: flex;
-	width: 100vw;
+	z-index: 3;
 	flex-direction: row;
 	align-items: baseline;
 	overflow: hidden;
 	white-space: nowrap;
-	border-right: 4px solid var(--yellow); 
+	border-right: 4px solid var(--yellow);
 	letter-spacing: 0.05em;
 	animation: typing 3s steps(25, end), blink-caret 1s step-end;
 }
@@ -17,26 +16,21 @@
 	font-size: inherit;
 }
 .header {
-	/* white-space: nowrap; */
-	/* font-family: 'Courier New', Courier, monospace; */
+
 	font-size: 36px;
 	color: var(--font-color);
-	/* display: flex; */
-	/* justify-content: flex-start; */
-	/* font-family: monospace; */
+
 }
 
-.code {
-	/* white-space: nowrap; */
+.subheader {
 	font-size: 22px;
-	/* margin-bottom: 3px; */
 }
 
 @media only screen and (max-width: 780px) {
 	.header {
 		font-size: 24px;
 	}
-	.code {
+	.subheader {
 		font-size: 18px;
 	}
 }
@@ -44,13 +38,12 @@
 @media only screen and (max-width: 580px) {
 	.header {
 		font-size: 18px;
-		/* white-space: unset; */
 	}
-	.code {
+	.subheader {
 		font-size: 14px;
 	}
 	.title {
-		white-space: unset;
+		/* white-space: unset; */
 		letter-spacing: 0;
 	}
 }

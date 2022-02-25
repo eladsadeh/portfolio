@@ -31,6 +31,7 @@ function Nav(props) {
 	
 	return (
 		<nav className={styles.navbar}>
+			<div className={styles.background}></div>
 			<NavMenu />
 			<Header header={header} subHeader={subHeader} />
 		</nav>

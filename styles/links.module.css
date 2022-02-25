@@ -1,0 +1,18 @@
+
+
+.links {
+	white-space: normal;
+}
+
+.link {
+	background-color: var(--dark-gray);
+	padding: 2px;
+	border-radius: 4px;
+	margin: 2px 5px 2px 2px;
+}
+
+.link:hover {
+	color: var(--green);
+	border-radius: 4px;
+	background-color: var(--dark-gray);
+}

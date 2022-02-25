@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Links from '../components/Links'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
 import utilStyles from '../styles/utils.module.css'
@@ -11,7 +12,8 @@ export default function Home() {
 				<div>
 					<span className={utilStyles.blue}>let </span>whoAmI
 					<span className={utilStyles.red}> = </span>
-					<span className={utilStyles.yellow}>[</span>
+					<Links />
+					{/* <span className={utilStyles.yellow}>[</span>
 					<span className={styles.links}>
 						<Link href='/work'>
 							<a className={styles.link}>Work,</a>
@@ -25,8 +27,8 @@ export default function Home() {
 						<Link href='/background'>
 							<a className={styles.link}>EverythingElse</a>
 						</Link>
-					</span>
-					<span className={utilStyles.yellow}>]</span>
+					</span> */}
+					{/* <span className={utilStyles.yellow}>]</span> */}
 					<div className={styles.reduce}>
 						<span className={utilStyles.green}>.reduce</span>
 						<span className={utilStyles.yellow}>(</span>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Links from '../components/Links'
 import { FaGithub } from 'react-icons/fa';
 import { SiLinkedin, SiGmail } from 'react-icons/si';
 
@@ -38,6 +39,7 @@ function Footer(props) {
 						/>
 					</a>
 				</div>
+				<Links />
 				<div className={styles.disclaimer}>Designed and built by Elad Sadeh 2022</div>
 			</div>
 		</div>

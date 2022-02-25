@@ -1,3 +1,11 @@
+.projects {
+	/* overflow: scroll; */
+	/* height: 100vh; */
+	-ms-scroll-snap-type: y mandatory;
+	scroll-snap-type: y mandatory;
+	-webkit-animation: apear ease 6s;
+	animation: appear ease 6s;
+}
 .heading {
 	text-align: center;
 	padding: 20px;
@@ -7,10 +15,6 @@
 
 .right {
 	white-space: nowrap;
-}
-
-.projects {
-	animation: appear ease 6s;
 }
 
 @keyframes appear {

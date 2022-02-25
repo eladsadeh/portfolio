@@ -5,6 +5,10 @@
 	margin: 8px;
 }
 
+.content {
+	text-align: left;
+}
+
 .title {
 	display: flex;
 	justify-content: space-between;

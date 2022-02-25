@@ -2,6 +2,7 @@
 	width: min(500px, 95vw);
 	border-radius: 5px;
 	border: 1px solid gray;
+	margin: 20px 0;
 	padding: 8px;
 	animation: appear ease 5s;
 }

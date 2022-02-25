@@ -12,7 +12,7 @@ function NavMenu(props) {
 
 	return (
 		<>
-			<button
+			<button 
 				className={styles.showButton}
 				onClick={() => {
 					setShowMenu(!showMenu);
@@ -38,7 +38,7 @@ function NavMenu(props) {
 							</Link>
 						</li>
 						<li className={styles.link}>
-							<Link href='/background'>
+							<Link href='/about'>
 								<a>Everything Else</a>
 							</Link>
 						</li>

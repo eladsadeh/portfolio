@@ -8,12 +8,12 @@
 .heading {
     text-align: center;
 	padding: 20px;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	animation: appear ease 4s;
 }
 @media only screen and (max-width: 440px) {
   .heading {
-    font-size: 20px;
+    font-size: 16px;
 	/* white-space: unset; */
 
   }
@@ -51,7 +51,9 @@
 }
 
 .image {
+    /* position: relative;
     /* padding: 5px; */
+    /* z-index: 0; */ 
     min-width: 70px;
     min-height: 70px;
     

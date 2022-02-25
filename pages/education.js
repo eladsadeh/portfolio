@@ -22,7 +22,7 @@ function Education({ contents }) {
 			<div className={styles.container}>
 				<div className={styles.heading}>
 					<span className={utilStyles.yellow}>[</span>
-					<span className=''>What, I, know, so, far</span>
+					<span className=''>What, I, learn, so, far</span>
 					<span className={utilStyles.yellow}>]</span>
 					<span className={utilStyles.red}> = </span>
 					<span className={utilStyles.purple}>&#123;</span>

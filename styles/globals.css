@@ -1,29 +1,41 @@
+:root {
+	--blue: rgb(0, 211, 230);
+	--green: rgb(140, 227, 0);
+	--orange: rgb(228, 141, 0);
+	--red: rgb(255, 0, 115);
+	--yellow: yellow;
+	--purple: rgb(241, 105, 215);
+  --background: rgb(69, 69, 69);
+  --dark-gray: rgb(94, 94, 94);
+  --font-color: rgb(245,245,245);
+}
+
 html,
 body {
-  background-color: rgb(69, 69, 69);
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    color: whitesmoke
+	background-color: var(--background);
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	color: var(--font-color);
 }
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* padding: 20px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* padding: 20px; */
 }
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
+	box-sizing: border-box;
+	margin: 0;
 }
 
 ul {
-  margin: 0;
+	margin: 0;
 }

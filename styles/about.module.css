@@ -1,0 +1,24 @@
+.container {
+	width: min(500px, 95vw);
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding: 8px;
+	animation: appear ease 5s;
+}
+
+.container h2 {
+	color: var(--blue);
+	text-align: center;
+}
+
+@keyframes appear {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

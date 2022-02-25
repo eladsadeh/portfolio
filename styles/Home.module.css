@@ -1,28 +1,43 @@
 .container {
 	text-align: center;
+	display: flex;
 	line-height: 1.5;
 	font-size: 1.3rem;
 	padding: 10vh 0;
-	background-color: rgb(69, 69, 69);
+	background-color: var(--background);
 	animation: appear ease 5s;
 	/* animation-delay: 5s; */
 }
 
+@media only screen and (max-width: 550px) {
+	.container {
+		font-size: 1rem;
+	}
+}
+@media only screen and (max-width: 380px) {
+	.container {
+		font-size: 0.9rem;
+	}
+}
 .reduce {
-	padding-left: 40px;
+	padding-left: 30px;
+}
+
+.links {
+	white-space: normal;
 }
 
 .link {
-	background-color: rgb(94, 94, 94);
+	background-color: var(--dark-gray);
 	padding: 2px;
 	border-radius: 4px;
 	margin: 2px 5px 2px 2px;
 }
 
 .link:hover {
-	color: rgb(140, 227, 0);
+	color: var(--green);
 	border-radius: 4px;
-	background-color: rgb(70, 70, 70);
+	background-color: var(--dark-gray);
 }
 
 @keyframes appear {

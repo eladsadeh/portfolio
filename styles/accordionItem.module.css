@@ -15,9 +15,11 @@
 	/* background-color: gray; */
 }
 
-.title:hover,
+.title:hover {
+		background-color: var(--dark-gray);
+}
 .active {
-	background-color: rgb(111, 111, 111);
+	color: var(--blue);
 }
 
 .title h2 {
@@ -45,6 +47,7 @@
 .bullets li:before {
 	padding: 5px;
 	content: '❖ ';
+	color: var(--green)
 }
 .bullets li {
 	display: flex;

@@ -17,6 +17,7 @@
 	width: 100%;
 	background-color: var(--dark-gray);
 	border-radius: 5px;
+	color: var(--blue);
 }
 .content {
 	/* grid-column: 2 / 4; */

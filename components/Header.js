@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../styles/title.module.css';
+import styles from '../styles/header.module.css';
 import utilStyles from '../styles/utils.module.css';
 
 function Header({ header, subHeader }) {

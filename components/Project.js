@@ -9,7 +9,7 @@ function Project({ project }) {
 			<div className={styles.content}>
 				<h3 className={styles.title}>{project.title}</h3>
 				<p className={styles.description}>{project.description}</p>
-				<ul className={styles.bullets}>
+				<ul className={utilStyles.bullets}>
 					{project.bullets.map((bullet, idx) => {
 						return (
 							<li key={idx}>

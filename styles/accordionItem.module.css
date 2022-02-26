@@ -1,5 +1,5 @@
 .container {
-	width: min(500px, 95vw);
+	width: min(550px, 95vw);
 	border-radius: 5px;
 	border: 1px solid gray;
 	margin: 8px;

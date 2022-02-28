@@ -49,7 +49,7 @@ function Education({ contents }) {
 						</div>
 						<div className={styles.description}>
 							<h3>Technion - Israel Institute of Technology</h3>
-							<p>B. Sc. - Electrical Engineering</p>
+							<p>B. Sc. - Electrical Engineering • Cum Laude</p>
 							<p>Focused on Semiconductors, Computer Science, and physics.</p>
 						</div>
 					</div>

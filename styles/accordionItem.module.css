@@ -1,5 +1,5 @@
 .container {
-	width: min(500px, 95vw);
+	width: min(550px, 95vw);
 	border-radius: 5px;
 	border: 1px solid gray;
 	margin: 8px;
@@ -13,21 +13,26 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	text-align: left;
 	cursor: pointer;
 	padding: 5px 10px;
-	/* width: 100%; */
-	/* background-color: gray; */
+}
+
+@media only screen and (max-width: 550px) {
+	.title {
+		font-size: 12px;
+	}
 }
 
 .title:hover {
-		background-color: var(--dark-gray);
+	background-color: var(--dark-gray);
 }
 .active {
 	color: var(--blue);
 }
 
 .title h2 {
-	font-size: 18px;
+	font-size: min(3.5vw, 18px);
 	margin: 0;
 }
 
@@ -36,24 +41,10 @@
 }
 
 .content {
-    padding: 10px;
+	padding: 10px;
 }
 
 .description {
-	padding:  0 10px;
-    line-height: 1.2;
-}
-
-.bullets {
-	list-style-type: none;
-	padding: 5px;
-}
-.bullets li:before {
-	padding: 5px;
-	content: '❖ ';
-	color: var(--green)
-}
-.bullets li {
-	display: flex;
-	align-items: baseline;
+	padding: 0 10px;
+	line-height: 1.2;
 }

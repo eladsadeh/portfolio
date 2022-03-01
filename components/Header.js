@@ -5,8 +5,13 @@ import utilStyles from '../styles/utils.module.css';
 
 function Header({ header, subHeader }) {
 	return (
-		<div className={styles.title}>
-			<span className={styles.header}>
+		<div
+			className={
+				subHeader
+					? `${styles.title} ${styles.typing}`
+					: `${styles.title} ${styles.appear}`
+			}>
+			<span className={subHeader ? styles.mainHeader : styles.header}>
 				<span>&lt;</span>
 				<h1 className={utilStyles.blue}>{header}&nbsp;</h1>
 			</span>
@@ -19,7 +24,9 @@ function Header({ header, subHeader }) {
 					<span className={utilStyles.purple}>&#125;</span>
 				</span>
 			)}
-			<span className={styles.header}>&nbsp;/&gt;</span>
+			<span className={subHeader ? styles.mainHeader : styles.header}>
+				&nbsp;/&gt;
+			</span>
 		</div>
 	);
 }

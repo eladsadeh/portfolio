@@ -3,14 +3,14 @@
 	/* height: 100vh; */
 	-ms-scroll-snap-type: y mandatory;
 	scroll-snap-type: y mandatory;
-	-webkit-animation: apear ease 6s;
-	animation: appear ease 6s;
+	-webkit-animation: apear ease 4s;
+	animation: appear ease 4s;
 }
 .heading {
 	text-align: center;
 	padding: 20px;
 	font-size: 1.3rem;
-	animation: appear ease 4s;
+	animation: appear ease 2s;
 }
 
 .right {

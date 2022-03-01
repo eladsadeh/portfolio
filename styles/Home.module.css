@@ -25,6 +25,7 @@
 
 .links {
 	white-space: normal;
+	font-size: min(18px, 4vw);
 }
 
 .link {

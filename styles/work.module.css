@@ -5,7 +5,7 @@
 .heading {
 	padding: 20px;
 	font-size: 1.3rem;
-	animation: appear ease 5s;
+	animation: appear ease 2s;
 	text-align: center;
 }
 
@@ -15,7 +15,7 @@
 
 .accordion {
 	margin-bottom: 20px;
-	animation: appear ease 7s;
+	animation: appear ease 4s;
 }
 
 @keyframes appear {

@@ -9,7 +9,7 @@
     text-align: center;
 	padding: 20px;
 	font-size: 1.3rem;
-	animation: appear ease 4s;
+	animation: appear ease 2s;
 }
 @media only screen and (max-width: 440px) {
   .heading {
@@ -17,7 +17,6 @@
 	/* white-space: unset; */
 
   }
- 
 }
 
 .school {
@@ -29,8 +28,7 @@
     margin: 5px 0;
 }
 .content {
-
-	animation: appear ease 5s;
+	animation: appear ease 4s;
 }
 .description {
     padding: 10px;

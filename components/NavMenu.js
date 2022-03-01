@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-import { TiThMenu } from 'react-icons/ti';
-import { IoClose } from 'react-icons/io5';
 
 import styles from '../styles/NavMenu.module.css';
 
@@ -17,17 +15,21 @@ function NavMenu(props) {
 				onClick={() => {
 					setShowMenu(!showMenu);
 				}}>
-				<div className={styles.menuline}></div>
-				<div className={styles.menuline}></div>
-				<div className={styles.menuline}></div>
+				<div
+					className={
+						showMenu ? `${styles.menuline} ${styles.topline}` : styles.menuline
+					}></div>
+				<div
+					className={
+						showMenu ? `${styles.menuline} ${styles.midline}` : styles.menuline
+					}></div>
+				<div
+					className={
+						showMenu
+							? `${styles.menuline} ${styles.bottomline}`
+							: styles.menuline
+					}></div>
 			</div>
-			{/* <button
-				className={styles.showButton}
-				onClick={() => {
-					setShowMenu(!showMenu);
-				}}>
-				{showMenu ? <IoClose /> : <TiThMenu />}
-			</button> */}
 			<div className={showMenu ? styles.navmenu : styles.hideMenu}>
 				<ul className={styles.navitems}>
 					<li className={styles.link}>

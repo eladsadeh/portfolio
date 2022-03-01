@@ -39,32 +39,6 @@
 	font-size: min(24px, 3.25vw);
 }
 
-/* @media only screen and (max-width: 780px) {
-	.header {
-		font-size: 24px;
-	}
-	.subheader {
-		font-size: 18px;
-	}
-}
-
-@media only screen and (max-width: 580px) {
-	.header {
-		font-size: 18px;
-	}
-	.subheader {
-		font-size: 14px;
-	}
-	.title {
-		letter-spacing: 0;
-	}
-}
-@media only screen and (max-width: 500px) {
-	.header {
-		font-size: 16px;
-	}
-} */
-
 /* The typing effect */
 @keyframes typing {
 	from {

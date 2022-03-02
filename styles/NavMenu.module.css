@@ -30,8 +30,8 @@
 }
 
 .menuline {
-	width: min(30px, 6vw );
-	height: min(5px, 1vw );
+	width: 30px;
+	height: 5px;
 	background-color: var(--font-color);
 	margin: 2px;
 	border-radius: 10px;

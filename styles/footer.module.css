@@ -42,7 +42,7 @@
 }
 
 .connect {
-	animation: appear ease 7s;
+	animation: appear ease 6s;
 }
 
 @keyframes appear {
